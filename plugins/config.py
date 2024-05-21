@@ -11,7 +11,7 @@ logging.basicConfig(
 
 class Config(object):
     
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6443004679:AAEYqctJm8b4di4wWjTjqchau00M_IaXAeU")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6997483527:AAFn5WyPJzzygN4mnQTNlN5m3TB_CteutCQ")
     
     API_ID = int(os.environ.get("API_ID", "23407106"))
     
@@ -53,5 +53,5 @@ class Config(object):
     
     TG_MIN_FILE_SIZE = 2097152000
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "urluploadv4_chenyang_bot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "chengyang_url_upload_bot")
                                   
