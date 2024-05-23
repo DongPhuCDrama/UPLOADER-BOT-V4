@@ -29,7 +29,7 @@ class Config(object):
     
     DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "")
     
-    HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
+    HTTP_PROXY = os.environ.get("HTTP_PROXY", "36.37.224.125:8080")
     
     OUO_IO_API_KEY = ""
     
