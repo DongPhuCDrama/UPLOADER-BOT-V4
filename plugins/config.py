@@ -29,7 +29,7 @@ class Config(object):
     
     DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "")
     
-    HTTP_PROXY = os.environ.get("HTTP_PROXY", "36.37.224.125:8080")
+    HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
     
     OUO_IO_API_KEY = ""
     
@@ -39,7 +39,7 @@ class Config(object):
     
     DEF_WATER_MARK_FILE = "UploadLinkToFileBot"
     
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://chen:chen@cluster0.mvkco74.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://chen:chen@cluster0.mvkco74.mongodb.net/?retryWrites=true&w=majority")
     
     SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
     
