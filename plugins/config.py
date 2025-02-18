@@ -11,11 +11,11 @@ logging.basicConfig(
 
 class Config(object):
     
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6997483527:AAG0zyNr05LMe0mUvn0JoSyM2CExqO-NJus")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8108185474:AAHhUu6H9BeEp0ZHN46V_sjvK2FtViwMUYk")
     
-    API_ID = int(os.environ.get("API_ID", "23407106"))
+    API_ID = int(os.environ.get("API_ID", "26775695"))
     
-    API_HASH = os.environ.get("API_HASH", "34817fe096f567f55ce37750b8a5ff1b")
+    API_HASH = os.environ.get("API_HASH", "b15bb60859bef151762fc5d9eb206c67")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     
@@ -43,15 +43,15 @@ class Config(object):
     
     SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
     
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002007429854"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002482663527"))
     
     LOGGER = logging
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002007429854")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002296873835")
     
-    OWNER_ID = int(os.environ.get("OWNER_ID", "7097161489"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1200411908"))
     
     TG_MIN_FILE_SIZE = 2097152000
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "chengyang_url_upload_bot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "uploader_yang_bot")
                                   
